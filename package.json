@@ -45,7 +45,8 @@
     "start:main": "cross-env NODE_ENV=development electronmon -r ts-node/register/transpile-only .",
     "start:preload": "cross-env NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.preload.dev.ts",
     "start:renderer": "cross-env NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true webpack serve --config ./.erb/configs/webpack.config.renderer.dev.ts",
-    "test": "jest"
+    "test": "jest",
+    "rebuild-sqlite": "electron-rebuild -f -w sqlite3"
   },
   "browserslist": [],
   "prettier": {
@@ -133,7 +134,7 @@
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.0",
     "detect-port": "^1.5.1",
-    "electron": "^25.0.1",
+    "electron": "^25.3.2",
     "electron-builder": "^24.2.1",
     "electron-devtools-installer": "^3.2.0",
     "electronmon": "^2.0.2",
