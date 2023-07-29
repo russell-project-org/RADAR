@@ -1,4 +1,4 @@
-# RADAR 
+# RADAR
 
 Desktop study app which you can
 
@@ -16,7 +16,7 @@ Keep everything here all in one, everything under your radar.
 - React.js
 - Electron
 - Bootstrap
-- PostgreSQL
+- SQLite3
 
 ### Scheduled Release Date
 
